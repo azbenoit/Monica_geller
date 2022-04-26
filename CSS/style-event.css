@@ -1,16 +1,17 @@
 body {
-    background-image: url("pics/img.png");
-    background-position: center;
-    background-size: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     cursor: url("pics/capybara.png");
     font-size: 110%; 
-    color: black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("pics/img.png");
+    background-position: center;
+    background-size: 100%;
 }
 .subbody {
     text-align: center;
 }
+
+/* HEADER */
 header {
     box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.222);
     width: 100%;
@@ -42,28 +43,12 @@ header {
 .bar a:hover {
     background-color: rgba(224, 200, 113, 0.186);
 }
-.menus {
-    text-decoration: none;
-    color: black;
-}
+
+/* Body */
 p {
     margin: 0%;
     font-size: larger;
     padding: 10px;
-}
-footer {
-    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.222);
-    background-color: white;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-}
-.logo {
-    display: inline-block;
-    padding-top: 10px;
-    width: 10%;
-    height: auto;
-    vertical-align: middle;
 }
 .ongoing{
     border-radius: 15px;
@@ -101,10 +86,6 @@ img {
 .event:hover .textevent{
     display: inline-block;
 }
-.inline{
-    width: 50%;
-    display: inline-block;
-}
 .vertical {
     vertical-align: middle;
 }
@@ -113,4 +94,28 @@ img {
     padding: 25px;
     width: 30%;
     display: inline-block;
+}
+
+/* FOOTER */
+footer {
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.222);
+    background-color: white;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+.logo {
+    display: inline-block;
+    padding-top: 10px;
+    width: 10%;
+    height: auto;
+    vertical-align: middle;
+}
+.inline{
+    width: 50%;
+    display: inline-block;
+}
+#home {
+    text-decoration: none;
+    color: black;
 }

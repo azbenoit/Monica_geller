@@ -38,6 +38,7 @@ header {
 }   
 .sticker{
   height: 45px;
+  width: auto;
   margin-left: 20px;
   margin-top: 4px;
   padding: 2px 2spx;
@@ -66,8 +67,8 @@ header {
 .role{
   text-align: left;
   margin: 0;
-  padding-left: 3px;
-  padding-right: 3px;
+  font-size: larger;
+  padding: 10px;
   left:0%;
   border-radius: 7px;
   border: 2px ;
@@ -152,14 +153,9 @@ header {
 
 /* footer */
 
-.menus {
+#home {
   text-decoration: none;
   color: black;
-}
-p {
-  margin: 0%;
-  font-size: larger;
-  padding: 10px;
 }
 footer {
   box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.222);
@@ -171,4 +167,11 @@ footer {
 .inline{
   width: 50%;
   display: inline-block;
+}
+.logo {
+  display: inline-block;
+  padding-top: 10px;
+  width: 10%;
+  height: auto;
+  vertical-align: middle;
 }
