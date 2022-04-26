@@ -192,21 +192,13 @@ header {
   text-align: right;
 }
 
-/* EVENTS */ 
+/* EVENTS AND VIDEOS */ 
 
 p {
   margin: 0%;
   font-size: larger;
   padding: 10px;
 }
-/* .ongoing{
-  border-radius: 15px;
-  background-color: rgb(86, 212, 86);
-  text-align: center;
-  margin: auto;
-  width: 400px;
-  padding: 10px;
-} */
 .poster {
   width: 400px;
   height: 400px;
@@ -237,10 +229,6 @@ p {
   width: 30%;
   display: inline-block;
 }
-
-
-
-
 
 /* FOOTER  */
 footer {
