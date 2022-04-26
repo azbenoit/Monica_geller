@@ -6,8 +6,10 @@ body {
     cursor: url("pics/capybara.png");
     font-size: 110%; 
     color: black;
-    text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.subbody {
+    text-align: center;
 }
 header {
     box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.222);
