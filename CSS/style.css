@@ -3,12 +3,34 @@ body {
     margin: 0;
     cursor: url("pics/capybara.png");
     font-size: 110%;  
-    background-image: url("pics/img.png");
+    background-image: url('pics/img.png');
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
+    background-color: white;
 }
 .subbody {
   text-align: center;
+}
+p {
+  margin: 0%;
+  font-size: larger;
+  padding: 10px;
+}
+
+/* COMMON TO ALL */
+
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.block{
+  position: relative;
+  display: inline-block;
+}
+.vertical {
+  vertical-align: middle;
 }
 
 /* HEADER */
@@ -45,6 +67,7 @@ header {
 }
 
 /* HOME PAGE */
+
 .ourname {
   width: 40%;
 }
@@ -57,7 +80,6 @@ header {
   background-color: rgb(252, 245, 212);
   color: rgba(167, 83, 9, 0.883);
   border-radius: 20px;
-  text-align: center; 
   margin: 2vw;
   line-height: 2;
 }
@@ -68,7 +90,6 @@ header {
   border-radius: 10px;
 }
 .thewholetitle {
-  text-align: center; 
   background-color: rgb(252, 245, 212);
   color: rgba(203, 150, 103, 0.883);
   border-radius: 40px;
@@ -80,28 +101,20 @@ header {
   height: 20px;
   display: inline-block;
 }
-.titleteam {
-  display: inline-block;
-}
-.people p {
+.textpeople {
   vertical-align: middle;
   border-radius: 10px;
   border: 1px solid black; 
-  width: 25vw; 
   display: inline-block;
-  padding: 2vh;
+  padding: 25px;
   margin: 10px;
 }
-.people {
-  text-align: center;
+.people p {
+  width: 25vw; 
 }
 
 /* TEAM PAGE */
 
-.photo1{
-  position: relative;
-  display: inline-block;
-}
 #teampic{
   height: 25em;
   width: 50em;
@@ -173,56 +186,29 @@ header {
   height: 240px;
   display: inline-block;
   vertical-align: middle;
-  margin-top: 25px;
 }
 .textphoto {
-  vertical-align: middle;
-  padding: 25px;
-  margin-top: 20px;
   width: 60%;
-  height: 180px;
-  display: inline-block;
-  border: 1px solid black;
-  border-radius: 10px;
-}
-.left {
-  text-align: left;
-}
-.right {
-  text-align: right;
+  height: 185px;
 }
 
 /* EVENTS AND VIDEOS */ 
 
-p {
-  margin: 0%;
-  font-size: larger;
-  padding: 10px;
-}
 .poster {
-  width: 400px;
-  height: 400px;
-}
-.event{
-  position: relative;
-  display: inline-block;
-  width : 400px;
-  height: 400px;
+  width: 413px;
+  height: 585px;
 }
 .textevent{
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 400px;
-  height: 400px;
+  width: 413px;
+  height: 585px;
   background-color: rgba(86, 212, 86, 0.5);
   display: none;
 }
-.event:hover .textevent{
+.block:hover .textevent{
   display: inline-block;
-}
-.vertical {
-  vertical-align: middle;
 }
 .textvideo {
   padding: 25px;
