@@ -111,6 +111,8 @@ header {
 
 /* TEAM PAGE */
 
+
+
 #teampic{
   width: 60%;
   margin-top: 20px;
@@ -139,40 +141,40 @@ header {
   display: none;
 }
 #carlotta{
-  top: 500px;
-  right: 380px;
+  top: 65%;
+  right: 38%;
 }
 #antonia{
-  top: 540px;
-  left: 630px;
+  top: 73.6%;
+  right: 47.8%;
 }
 #jasmine{
-  top: 180px;
-  left: 530px;
+  top: 18%;
+  left: 42.5%;
 }
 #mia{
-  top: 230px;
-  right: 330px;
+  top: 26%;
+  right: 29.6%;
 }
 #alix{
-  top: 250px;
-  left: 610px;
+  top: 31%;
+  left: 49.6%;
 }
 #henri{
-  top: 440px;
-  left: 450px;
+  top: 42.6%;
+  left: 40%;
 }
 #cha{
-  top: 250px;
-  left: 690px;
+  top: 23%;
+  right: 45.7%;
 }
 #nicolas{
-  top: 310px;
-  left: 760px;
+  top: 32%;
+  right: 38.7%;
 }
 #flavia{
-  top: 380px;
-  left: 580px;
+  top: 49.3%;
+  left: 49.4%;
 }
 .photo{
   width: 220px;
