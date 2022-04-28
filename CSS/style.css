@@ -70,8 +70,23 @@ header {
 
 .ourname {
   width: 40%;
-  margin: 100px;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
+#walker_cont{
+  display: block;
+  text-align: right;
+}
+
+#walkers{
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 170px;
+  right: 0px;
+  bottom: 0px;
+} 
+
 .introtext {
   display: inline-block;
   vertical-align: middle;
