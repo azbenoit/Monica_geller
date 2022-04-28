@@ -70,6 +70,7 @@ header {
 
 .ourname {
   width: 40%;
+  margin: 100px;
 }
 .introtext {
   display: inline-block;
@@ -80,13 +81,13 @@ header {
   background-color: rgb(252, 245, 212);
   color: rgba(167, 83, 9, 0.883);
   border-radius: 20px;
-  margin: 2vw;
+  margin: 20px;
   line-height: 2;
 }
 .imageteam {
   vertical-align: middle;
   width: 48vw;
-  margin: 2vw;
+  margin: 10px;
   border-radius: 10px;
 }
 .thewholetitle {
