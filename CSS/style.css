@@ -191,14 +191,14 @@ header {
 
 .poster {
   width: 413px;
-  height: 585px;
+  height: 520px;
 }
 .textevent{
   position: absolute;
   top: 0px;
   left: 0px;
   width: 413px;
-  height: 585px;
+  height: 520px;
   background-color: rgba(203, 150, 103, 0.6);
   display: none;
 }
