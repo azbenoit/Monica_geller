@@ -71,20 +71,32 @@ header {
 .ourname {
   width: 40%;
   margin-top: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
+
+.ourname:hover {
+  cursor: grab;
+}
+
+.ourname:active {
+  cursor: grabbing;
+}
+
 #walker_cont{
   display: block;
   text-align: right;
+  height: 200px;
+  margin-bottom: 100px;
 }
 
-#walkers{
+.walkers{
   display: inline-block;
-  position: relative;
+  position: absolute;
   width: 200px;
   height: 170px;
-  right: 0px;
-  bottom: 0px;
+  /* right: 0px;
+  bottom: 50px; */
 } 
 
 .introtext {
