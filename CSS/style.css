@@ -1,12 +1,36 @@
-
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     cursor: url("pics/capybara.png");
     font-size: 110%;  
-    background-image: url("pics/img.png");
+    background-image: url('pics/img.png');
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
+    background-color: white;
+}
+.subbody {
+  text-align: center;
+}
+p {
+  margin: 0%;
+  font-size: larger;
+  padding: 10px;
+}
+
+/* COMMON TO ALL */
+
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.block{
+  position: relative;
+  display: inline-block;
+}
+.vertical {
+  vertical-align: middle;
 }
 
 /* HEADER */
@@ -36,21 +60,40 @@ header {
 }   
 .sticker{
   height: 45px;
+  width: auto;
   margin-left: 20px;
   margin-top: 4px;
   padding: 2px 2spx;
 }
 
-/*-- INTRO */
+/* HOME PAGE */
+
 .ourname {
   width: 40%;
-  margin-right: 30%;
-  margin-left: 30%;
-  display: block;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
-.mainpageintro {
-  display: block;
+.ourname:hover {
+  cursor: grab;
 }
+.ourname:active {
+  cursor: grabbing;
+}
+#walker_cont{
+  display: block;
+  text-align: right;
+  height: 200px;
+  margin-bottom: 100px;
+}
+.walkers{
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  height: 170px;
+  /* right: 0px;
+  bottom: 50px; */
+} 
 .introtext {
   display: inline-block;
   vertical-align: middle;
@@ -60,68 +103,144 @@ header {
   background-color: rgb(252, 245, 212);
   color: rgba(167, 83, 9, 0.883);
   border-radius: 20px;
-  text-align: center; 
-  margin: 2vw;
+  margin: 20px;
   line-height: 2;
 }
 .imageteam {
   vertical-align: middle;
   width: 48vw;
-  margin: 2vw;
+  margin: 10px;
   border-radius: 10px;
 }
-
-/*-- OUR VALUES */
-/*--  OUR GOALS */
-/*-- OUR SOCIAL CAUSE  */
-/*-- OUR TEAM - DO THE 9 SQUARES LAYOUT */
 .thewholetitle {
-  text-align: center; 
   background-color: rgb(252, 245, 212);
   color: rgba(203, 150, 103, 0.883);
   border-radius: 40px;
-  margin-right: 35%;
-  margin-left: 35%;
+  margin-bottom: 50px;
+  margin-top: 100px;
 }
 .eforteam {
   height: 20px;
   display: inline-block;
 }
-.titleteam {
-  display: inline-block;
-  text-align: center;
-}
-.people p {
+.textpeople {
+  vertical-align: middle;
   border-radius: 10px;
   border: 1px solid black; 
-  text-align: center;
-  font-weight: bold;
-  width: 25vw; 
   display: inline-block;
-  padding-top: 2vh;
+  padding: 25px;
   margin: 10px;
 }
-.people {
-  text-align: center;
+
+/* TEAM PAGE */
+
+#teampic{
+  width: 60%;
+  margin-top: 20px;
+}
+.point{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: rgb(252, 245, 212);
+}
+.role{
+  font-size: larger;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: rgba(252, 245, 212,0.6);
+  color: white;
+  display: none;
+}
+.allpoints {
+  position: absolute;
+}
+.allpoints:hover .role {
+  display: block;
+}
+.allpoints:hover .point {
+  display: none;
+}
+#carlotta{
+  top: 65%;
+  right: 38%;
+}
+#antonia{
+  top: 73.6%;
+  right: 47.8%;
+}
+#jasmine{
+  top: 18%;
+  left: 42.5%;
+}
+#mia{
+  top: 26%;
+  right: 29.6%;
+}
+#alix{
+  top: 31%;
+  left: 49.6%;
+}
+#henri{
+  top: 42.6%;
+  left: 40%;
+}
+#cha{
+  top: 23%;
+  right: 45.7%;
+}
+#nicolas{
+  top: 32%;
+  right: 38.7%;
+}
+#flavia{
+  top: 49.3%;
+  left: 49.4%;
+}
+.photo{
+  width: 220px;
+  height: 240px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.textphoto {
+  width: 60%;
+  height: 185px;
 }
 
+/* VIDEOS */ 
 
+.poster {
+  width: 413px;
+  height: 520px;
+}
+.textevent{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 413px;
+  height: 520px;
+  background-color: rgba(203, 150, 103, 0.6);
+  display: none;
+}
+.block:hover .textevent{
+  display: inline-block;
+}
+.textvideo {
+  padding: 25px;
+  width: 30%;
+  display: inline-block;
+}
 
-/* WHAT WE HAVE PLANNED FOR YOU! */
-
-/* CHECK OUT OUR VIDEO!  */
-
-/* BOTTOM OF THE PAGE  */
-
+/* FOOTER  */
 footer {
   box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.222);
   background-color: white;
   bottom: 0px;
   left: 0px;
   width: 100%;
-  text-align: center;
 }
-.menus {
+#home {
   text-decoration: none;
   color: black;
 }
@@ -135,10 +254,4 @@ footer {
 .inline{
   width: 50%;
   display: inline-block;
-}
-
-/* AUTRE  */
-
-#capybarapic {
-  display: none;
 }
