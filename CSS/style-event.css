@@ -100,7 +100,6 @@ header {
 }
 
 .back {
-    color: green;
     transform: rotateY(180deg);
 }
 
@@ -154,12 +153,6 @@ p {
 }
 */
 
-.left {
-    text-align: left;
-}
-.right {
-    text-align: right;
-}
 img {
     width: 400px;
     height: 400px;
@@ -170,18 +163,7 @@ img {
     width : 400px;
     height: 400px;
 }
-.textevent{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 400px;
-    height: 400px;
-    background-color: rgba(228, 201, 92, 0.356);
-    display: none;
-}
-.event:hover .textevent{
-    display: inline-block;
-}
+
 
 /* FOOTER  */
 footer {
