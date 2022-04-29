@@ -15,13 +15,12 @@ function hover(event){
     const pelement = event.currentTarget;
     const relement = pelement.nextElementSibling;
     relement.style.display = "block";
-    pelement.classList.add("invisible");
-
+    pelement.style.display = 'none';
 }
 
 function unhover(event){
     const pelement = event.currentTarget;
     const relement = pelement.nextElementSibling;
     relement.style.display = "none";
-    pelement.classList.remove("invisible");
+    pelement.style.display = 'block';
 }
