@@ -135,6 +135,8 @@ header {
 
 .values {
   width: fit-content;
+  margin: auto;
+  margin-bottom: 30px;
   background-color: rgba(252, 245, 212, 0.636);
   color: rgba(156, 78, 11, 0.69);
   border-radius: 100px;
@@ -147,6 +149,7 @@ header {
 .goals {
   width: 80%;
   margin: auto;
+  margin-bottom: 30px;
   background-color: rgba(252, 245, 212, 0.636);
   color: rgba(156, 78, 11, 0.69);
   border-radius: 100px;
