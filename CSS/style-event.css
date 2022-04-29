@@ -9,6 +9,17 @@ body {
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.title_events {
+    text-align: center; 
+    background-color: rgb(252, 245, 212);
+    color: rgba(203, 150, 103, 0.883);
+    border-radius: 40px;
+    margin-right: 35%;
+    margin-left: 35%;
+    font-family: cursive;
+}
+
 header {
     box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.222);
     width: 100%;
@@ -93,7 +104,7 @@ img {
     left: 0px;
     width: 400px;
     height: 400px;
-    background-color: rgba(86, 212, 86, 0.5);
+    background-color: rgba(228, 201, 92, 0.356);
     display: none;
 }
 .event:hover .textevent{
