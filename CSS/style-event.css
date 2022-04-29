@@ -8,16 +8,6 @@ body {
     background-size: 100%;
 }
 
-.title_events {
-    text-align: center; 
-    background-color: rgb(252, 245, 212);
-    color: rgba(203, 150, 103, 0.883);
-    border-radius: 40px;
-    margin-right: 35%;
-    margin-left: 35%;
-    font-family: cursive;
-}
-
 header {
     box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.222);
     width: 100%;
@@ -51,6 +41,26 @@ header {
 }
 
 /* Body */
+
+/* titles */
+
+.title_events {
+    text-align: center; 
+    background-color: rgb(252, 245, 212);
+    color: rgba(203, 150, 103, 0.883);
+    border-radius: 40px;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+/* image */
+
+.weekplanner {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
 
 /* Card ANIMATION */
 .block {
