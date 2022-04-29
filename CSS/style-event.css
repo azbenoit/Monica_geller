@@ -76,18 +76,17 @@ header {
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
 }
-
 .front {
     background-color: #bbb;
     color: black;
 }
-
 .back {
     background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
 }
-  /* END CARD ANIMATION */
+
+/* END CARD ANIMATION */
 
 .poster {
     width: 413px;
@@ -117,50 +116,14 @@ p {
     font-size: larger;
     padding: 10px;
 }
-.ongoing{
-    border-radius: 15px;
-    background-color: rgb(86, 212, 86);
-    text-align: center;
-    margin: auto;
-    width: 400px;
-    padding: 10px;
-}
 .left {
     text-align: left;
 }
 .right {
     text-align: right;
 }
-img {
-    width: 400px;
-    height: 400px;
-}
-.event{
-    position: relative;
-    display: inline-block;
-    width : 400px;
-    height: 400px;
-}
-.textevent{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 400px;
-    height: 400px;
-    background-color: rgba(86, 212, 86, 0.5);
-    display: none;
-}
-.event:hover .textevent{
-    display: inline-block;
-}
 .vertical {
     vertical-align: middle;
-}
-.textvideo {
-    vertical-align: middle;
-    padding: 25px;
-    width: 30%;
-    display: inline-block;
 }
 
 /* FOOTER */

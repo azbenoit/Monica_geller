@@ -74,22 +74,18 @@ header {
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
-
 .ourname:hover {
   cursor: grab;
 }
-
 .ourname:active {
   cursor: grabbing;
 }
-
 #walker_cont{
   display: block;
   text-align: right;
   height: 200px;
   margin-bottom: 100px;
 }
-
 .walkers{
   display: inline-block;
   position: absolute;
@@ -98,7 +94,6 @@ header {
   /* right: 0px;
   bottom: 50px; */
 } 
-
 .introtext {
   display: inline-block;
   vertical-align: middle;
@@ -138,8 +133,6 @@ header {
 }
 
 /* TEAM PAGE */
-
-
 
 #teampic{
   width: 60%;
@@ -215,9 +208,9 @@ header {
   height: 185px;
 }
 
-/* EVENTS AND VIDEOS */ 
+/* VIDEOS */ 
 
-/* .poster {
+.poster {
   width: 413px;
   height: 520px;
 }
@@ -237,7 +230,7 @@ header {
   padding: 25px;
   width: 30%;
   display: inline-block;
-} */
+}
 
 /* FOOTER  */
 footer {

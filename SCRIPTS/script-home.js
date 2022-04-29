@@ -2,7 +2,7 @@
 
 const walkers = document.querySelector(".walkers");
 walkers.style.right = "0px";
-walkers.style.bottom = "20px";
+walkers.style.bottom = "200px";
 // console.log(walkers.right);
 let speed = 4;
 let i = 0;
@@ -18,7 +18,7 @@ function eClick(event){
     man.classList.add("walkers");
     man.alt = "walking dudes";
     man.style.right = "0px";
-    man.style.bottom = "20px";
+    man.style.bottom = "200px";
     document.querySelector("#walker_cont").appendChild(man);
     men.push(man);
 }
