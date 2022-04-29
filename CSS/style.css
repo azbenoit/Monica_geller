@@ -158,12 +158,12 @@ header {
 .allpoints {
   position: absolute;
 }
-.allpoints:hover .role {
+/*.allpoints:hover .role {
   display: block;
 }
 .allpoints:hover .point {
   display: none;
-}
+}*/ 
 #carlotta{
   top: 65%;
   right: 38%;
@@ -209,6 +209,7 @@ header {
 .textphoto {
   width: 60%;
   height: 185px;
+  overflow: auto;
 }
 
 /* image */
