@@ -57,19 +57,24 @@ header {
 
 .weekplanner {
     width: 90%;
-    margin-left: 5%;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 10px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
 }
 
 /* Card ANIMATION */
 .block {
     background-color: transparent;
+    border: transparent;
     width: 413px;
     height: 520px;
-    border: 1px solid #f1f1f1;
     perspective: 1000px;
     display: inline-block;
+    border-radius: 10px;
 }
 
 .inner {
@@ -114,8 +119,10 @@ header {
     left: 0px;
     width: 413px;
     height: 520px;
-    background-color: rgba(203, 150, 103, 0.6);
+    background-color: rgba(203, 150, 103, 0.219);
     display: none;
+    border-radius: 10px;
+
 }
 .block:hover .textevent{
     display: inline-block;
@@ -123,9 +130,7 @@ header {
 .textvideo {
     padding: 25px;
     width: 30%;
-    display: inline-block;
-}
-
+    display: inline-block;}
 
 p {
     margin: 0%;
