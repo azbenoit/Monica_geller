@@ -121,8 +121,6 @@ header {
     display: none;
     border-radius: 10px;
     margin: auto;
-    
-
 }
 .block:hover .textevent{
     display: inline-block;
@@ -146,30 +144,16 @@ p {
 .vertical {
     vertical-align: middle;
 }
-
-/* FOOTER */
-footer {
-    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.222);
-    background-color: white;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-}
-.logo {
-    display: inline-block;
-    padding-top: 10px;
-    width: 10%;
-    height: auto;
-    vertical-align: middle;
-}
+/* -> replaced with an event 
 .ongoing{
     border-radius: 15px;
-    background-color: rgb(86, 212, 86);
     text-align: center;
     margin: auto;
     width: 400px;
     padding: 10px;
 }
+*/
+
 .left {
     text-align: left;
 }
@@ -198,11 +182,36 @@ img {
 .event:hover .textevent{
     display: inline-block;
 }
-.inline{
+
+/* FOOTER  */
+footer {
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.222);
+    background-color: white;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+  }
+  #home {
+    text-decoration: none;
+  }
+  .logo {
+    display: inline-block;
+    padding-top: 10px;
+    width: 10%;
+    height: auto;
+    vertical-align: middle;
+  }
+  .inline{
     width: 50%;
     display: inline-block;
-}
-#home {
-    text-decoration: none;
-    color: black;
+  }
+  
+  .footertext {
+    background-color: rgb(252, 245, 212);
+    color: rgba(203, 150, 103, 0.883); 
+    width: fit-content;
+    margin: auto;
+    height: fit-content; 
+    border-radius: 20px;
+    padding: 10px;
 }

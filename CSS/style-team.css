@@ -124,6 +124,20 @@ header {
   right: 175px;
 }
 
+/* title */
+.thewholetitle {
+  background-color: rgb(252, 245, 212);
+  color: rgba(203, 150, 103, 0.883);
+  border-radius: 40px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+.eforteam {
+  height: 20px;
+  display: inline-block;
+}
+
+
 /*descriptions*/ 
 .photo{
   width: 220px;
@@ -151,12 +165,7 @@ header {
   margin-right: 7px;
 }
 
-/* footer */
-
-#home {
-  text-decoration: none;
-  color: black;
-}
+/* FOOTER  */
 footer {
   box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.222);
   background-color: white;
@@ -164,9 +173,8 @@ footer {
   left: 0px;
   width: 100%;
 }
-.inline{
-  width: 50%;
-  display: inline-block;
+#home {
+  text-decoration: none;
 }
 .logo {
   display: inline-block;
@@ -175,3 +183,16 @@ footer {
   height: auto;
   vertical-align: middle;
 }
+.inline{
+  width: 50%;
+  display: inline-block;
+}
+
+.footertext {
+  background-color: rgb(252, 245, 212);
+  color: rgba(203, 150, 103, 0.883); 
+  width: fit-content;
+  margin: auto;
+  height: fit-content; 
+  border-radius: 20px;
+  padding: 10px;}
