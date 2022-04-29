@@ -1,9 +1,9 @@
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
-    cursor: url("pics/capybara.png");
+    cursor: "pics/capybara.png";
     font-size: 110%;  
-    background-image: url('pics/img.png');
+    background-image: 'pics/img.png';
     background-position: center;
     background-size: cover;
     background-color: white;
@@ -95,22 +95,21 @@ header {
   bottom: 50px; */
 } 
 .introtext {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 1vw; 
+  display: block;
+  margin: auto;
+  padding: 5px; 
   width: 40vw;
   font-size: 130%;
   background-color: rgb(252, 245, 212);
   color: rgba(167, 83, 9, 0.883);
   border-radius: 20px;
-  margin: 20px;
   line-height: 2;
 }
 .imageteam {
-  vertical-align: middle;
-  width: 48vw;
-  margin: 10px;
+  display: block;
+  width: 50vw;
   border-radius: 10px;
+  margin: auto;
 }
 .thewholetitle {
   background-color: rgb(252, 245, 212);
@@ -132,7 +131,30 @@ header {
   margin: 10px;
 }
 
-/* SOCIAL CAUSE */
+/* values */
+
+.values {
+  width: fit-content;
+  background-color: rgba(252, 245, 212, 0.636);
+  color: rgba(156, 78, 11, 0.69);
+  border-radius: 100px;
+  padding: 20px;
+
+}
+
+/* goals */
+
+.goals {
+  width: 80%;
+  margin: auto;
+  background-color: rgba(252, 245, 212, 0.636);
+  color: rgba(156, 78, 11, 0.69);
+  border-radius: 100px;
+  padding: 20px;
+  max-width: 500px;
+}
+
+/* social cause */
 
 
 /* TEAM PAGE */
@@ -212,7 +234,7 @@ header {
   overflow: auto;
 }
 
-/* image */
+/* events */
 
 .weekplanner {
   width: 90%;
@@ -258,7 +280,6 @@ footer {
 }
 #home {
   text-decoration: none;
-  color: black;
 }
 .logo {
   display: inline-block;
@@ -271,3 +292,12 @@ footer {
   width: 50%;
   display: inline-block;
 }
+
+.footertext {
+  background-color: rgb(252, 245, 212);
+  color: rgba(203, 150, 103, 0.883); 
+  width: fit-content;
+  margin: auto;
+  height: fit-content; 
+  border-radius: 20px;
+  padding: 10px;}
