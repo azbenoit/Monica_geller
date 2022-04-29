@@ -7,7 +7,9 @@ body {
     background-position: center;
     background-size: 100%;
 }
-
+.subbody{
+    text-align: center;
+}
 header {
     box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.222);
     width: 100%;
@@ -57,13 +59,11 @@ header {
 
 .weekplanner {
     width: 90%;
-    margin-top: 10px;
+    margin: auto;
+    height: fit-content;
     border-radius: 10px;
     max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
-    
 }
 
 /* Card ANIMATION */
@@ -143,15 +143,6 @@ p {
 .vertical {
     vertical-align: middle;
 }
-/* -> replaced with an event 
-.ongoing{
-    border-radius: 15px;
-    text-align: center;
-    margin: auto;
-    width: 400px;
-    padding: 10px;
-}
-*/
 
 img {
     width: 400px;
