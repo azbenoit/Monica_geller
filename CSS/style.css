@@ -132,6 +132,9 @@ header {
   margin: 10px;
 }
 
+/* SOCIAL CAUSE */
+
+
 /* TEAM PAGE */
 
 #teampic{
@@ -206,6 +209,18 @@ header {
 .textphoto {
   width: 60%;
   height: 185px;
+}
+
+/* image */
+
+.weekplanner {
+  width: 90%;
+  margin-top: 10px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 /* VIDEOS */ 

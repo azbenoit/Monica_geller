@@ -75,6 +75,7 @@ header {
     perspective: 1000px;
     display: inline-block;
     border-radius: 10px;
+    margin: auto;
 }
 
 .inner {
@@ -97,13 +98,9 @@ header {
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
 }
-.front {
-    background-color: #bbb;
-    color: black;
-}
+
 .back {
-    background-color: dodgerblue;
-    color: white;
+    color: green;
     transform: rotateY(180deg);
 }
 
@@ -119,9 +116,12 @@ header {
     left: 0px;
     width: 413px;
     height: 520px;
-    background-color: rgba(203, 150, 103, 0.219);
+    background-color: rgb(252, 245, 212);    
+    color: rgb(143, 80, 21);
     display: none;
     border-radius: 10px;
+    margin: auto;
+    
 
 }
 .block:hover .textevent{
