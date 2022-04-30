@@ -45,7 +45,6 @@ header {
 .bar {
   margin: 0;
   padding: 0;
-  list-style: none;
   float: right;
 } 
 .bar a {
@@ -115,8 +114,11 @@ header {
   background-color: rgb(252, 245, 212);
   color: rgba(203, 150, 103, 0.883);
   border-radius: 40px;
+  margin: auto;
   margin-bottom: 50px;
   margin-top: 100px;
+  width: max-content;
+  padding: 10px;
 }
 .eforteam {
   height: 20px;
@@ -137,10 +139,6 @@ header {
   margin-top: 10px;
   width: fit-content;
   margin: auto;
-}
-
-.button2 {
-  font-size:large ;
 }
 
 /* values */
@@ -194,11 +192,11 @@ header {
   padding: 10px;
   font-size: xx-large;
   margin: auto;
+  margin-bottom: 100px;
   border-radius: 20px;
   border: none;
   transition: all 0.2s ease 0s;
   background-color: rgba(252, 245, 212, 0.403);
-
   }
 
 .mdmlink {
@@ -371,3 +369,12 @@ footer {
   height: fit-content; 
   border-radius: 20px;
   padding: 10px;}
+
+@media (max-width: 650px) {
+  header {
+    height: 120px;
+  }
+  .ourname {
+    margin-top: 200px;
+  }
+}
