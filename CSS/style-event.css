@@ -51,8 +51,11 @@ header {
     background-color: rgb(252, 245, 212);
     color: rgba(203, 150, 103, 0.883);
     border-radius: 40px;
-    margin-right: 35%;
-    margin-left: 35%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: max-content;
+    padding: 10px;
 }
 
 /* image */
@@ -188,3 +191,12 @@ footer {
     border-radius: 20px;
     padding: 10px;
 }
+
+@media (max-width: 650px) {
+    header {
+      height: 120px;
+    }
+    .title_events {
+      margin-top: 150px;
+    }
+  }
