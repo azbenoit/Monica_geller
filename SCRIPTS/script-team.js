@@ -14,7 +14,7 @@ for(let k=0; k<points.length; k++){
     point.addEventListener("mouseenter", hover);
     point.addEventListener("mouseleave", unhover);
 
-    //add the send to the bottom function
+    //add the function send to description 
     point.addEventListener("click", sendtorole);
     let role = point.nextElementSibling;
     role.addEventListener("click", sendtorole)
@@ -37,16 +37,35 @@ function unhover(event){
 }
 
 function sendtorole(event){
-    console.log("hk");
+    //scrolls down
     const element = event.currentTarget;
     const name = element.parentNode.id;
     const nameimg = document.getElementsByClassName(name);
     let index = names.indexOf(name, 0);
     let bottomY = element.parentNode.offsetParent.offsetHeight - element.parentNode.offsetTop - element.offsetHeight;
     let heighttextphoto = textphoto.offsetHeight;
-    console.log(heighttextphoto);
-    console.log(bottomY);
     //window.scrollBy(0, bottomY + index*heighttextphoto);
     window.scroll(0, event.clientY + bottomY + index*heighttextphoto);
+    
+    //make the appearance of the text change for a bit
+    console.log('.'+name)
+    let photo = document.querySelector('.'+name)
+    
+    changeappearance(photo)
+    setTimeout(photo.ogappearance,2000)
+}
 
+function changeappearance(el){
+    const element = el.parentElement;
+    console.log(element)
+    console.log(element.children)
+    console.log(element.children.length)
+    for (let k=0; k<element.children.length; k++){
+        console.log(element.children[k])
+        element.children[k].style.backgroundcolor = "#ffc991|0.6";
+    }
+}
+
+function appearanceAnim(currentTime){
+    f
 }
