@@ -125,7 +125,8 @@ display: inline-block;
 .textpeople {
   vertical-align: middle;
   border-radius: 10px;
-  border: 1px solid black; 
+  color: rgba(166, 105, 51, 0.871);
+  border: solid rgba(226, 187, 78, 0.449) 2px;
   display: inline-block;
   padding: 25px;
   margin: 10px;
@@ -133,9 +134,9 @@ display: inline-block;
 }
 
 .hometeam {
-  margin-top: 10px;
   width: fit-content;
   margin: auto;
+
 
 }
 
@@ -313,6 +314,7 @@ vertical-align: middle;
   height: 185px;
   overflow: auto;
   }
+
 
 
 /* events */
