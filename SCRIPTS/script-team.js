@@ -26,6 +26,7 @@ function hover(event){
     relement.style.display = "block";
     pelement.classList.add("invisible");
     
+
 }
 
 function unhover(event){
@@ -47,4 +48,5 @@ function sendtorole(event){
     console.log(bottomY);
     //window.scrollBy(0, bottomY + index*heighttextphoto);
     window.scroll(0, event.clientY + bottomY + index*heighttextphoto);
+
 }

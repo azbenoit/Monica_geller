@@ -7,7 +7,9 @@ body {
     background-position: center;
     background-size: 100%;
 }
-
+.subbody{
+    text-align: center;
+}
 header {
     box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.222);
     width: 100%;
@@ -49,21 +51,22 @@ header {
     background-color: rgb(252, 245, 212);
     color: rgba(203, 150, 103, 0.883);
     border-radius: 40px;
-    margin-right: 35%;
-    margin-left: 35%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: max-content;
+    padding: 10px;
 }
 
 /* image */
 
 .weekplanner {
     width: 90%;
-    margin-top: 10px;
+    margin: auto;
+    height: fit-content;
     border-radius: 10px;
     max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
-    
 }
 
 /* Card ANIMATION */
@@ -143,15 +146,6 @@ p {
 .vertical {
     vertical-align: middle;
 }
-/* -> replaced with an event 
-.ongoing{
-    border-radius: 15px;
-    text-align: center;
-    margin: auto;
-    width: 400px;
-    padding: 10px;
-}
-*/
 
 img {
     width: 400px;
@@ -197,3 +191,12 @@ footer {
     border-radius: 20px;
     padding: 10px;
 }
+
+@media (max-width: 650px) {
+    header {
+      height: 120px;
+    }
+    .title_events {
+      margin-top: 150px;
+    }
+  }
