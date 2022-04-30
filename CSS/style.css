@@ -111,26 +111,24 @@ border-radius: 10px;
 margin: auto;
 }
 .thewholetitle {
-background-color: rgb(252, 245, 212);
-color: rgba(203, 150, 103, 0.883);
-border-radius: 40px;
-margin: auto;
-margin-bottom: 50px;
-margin-top: 100px;
-width: max-content;
-padding: 10px;
-}
+  background-color: rgb(252, 245, 212);
+  color: rgba(203, 150, 103, 0.883);
+  border-radius: 40px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  }
 .eforteam {
 height: 20px;
 display: inline-block;
 }
 
 .textpeople {
-    border: solid rgba(252, 245, 212, 0.403) 4px;
-    border-radius: 30px;
-    color: rgba(180, 89, 19, 0.804);
-    padding: 20px;
-    display: inline-block;
+  vertical-align: middle;
+  border-radius: 10px;
+  border: 1px solid black; 
+  display: inline-block;
+  padding: 25px;
+  margin: 10px;
     
 }
 
@@ -308,19 +306,13 @@ height: 240px;
 display: inline-block;
 vertical-align: middle;
 }
+
 .textphoto {
+  width: 60%;
+  height: 185px;
+  overflow: auto;
+  }
 
-width: 60%;
-height: 185px;
-overflow: auto;
-border: solid rgba(252, 245, 212, 0.403) 4px;
-border-radius: 30px;
-color: rgba(180, 89, 19, 0.804);
-vertical-align: middle;
-margin-top: 50px;
-margin-bottom: 50px;
-
-}
 
 /* events */
 
