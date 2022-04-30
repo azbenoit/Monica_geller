@@ -16,6 +16,8 @@ for(let k=0; k<points.length; k++){
 
     //add the send to the bottom function
     point.addEventListener("click", sendtorole);
+    let role = point.nextElementSibling;
+    role.addEventListener("click", sendtorole)
 }
 
 function hover(event){

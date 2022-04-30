@@ -164,11 +164,13 @@ width: 60%;
 margin-top: 20px;
 }
 .point{
-width: 20px;
-height: 20px;
+width: 11px;
+height: 11px;
 padding: none;
 border-radius: 100%;
+border: 0px solid  rgb(252, 245, 212);
 background-color: rgb(252, 245, 212);
+cursor: pointer;
 }
 .role{
 font-size: larger;
@@ -183,7 +185,15 @@ position: absolute;
 }
 
 .invisible{
-  display:none;
+  display: none;
+}
+
+.clickonme{
+  position: absolute;
+  left: 45%;
+  height: 10%;
+  color: rgb(240, 229, 197);
+
 }
 /*.allpoints:hover .role {
 display: block;
