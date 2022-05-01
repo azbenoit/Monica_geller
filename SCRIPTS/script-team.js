@@ -50,7 +50,7 @@ function sendtorole(event){
     //make the appearance of the text change for a bit
     const photo = document.querySelector('.'+name)
     if(index%2===0){
-        photo.nextElementSibling.style.backgroundColor="#fff5b8";
+        photo.nextElementSibling.style.backgroundColor="rgba(226, 187, 78, 0.449)";
         console.log(photo.nextElementSibling.style)
         setTimeout(function(){
             photo.nextElementSibling.style.backgroundColor = "white";
@@ -58,7 +58,7 @@ function sendtorole(event){
         
     }
     else{
-        photo.previousElementSibling.style.backgroundColor="#fff5b8";
+        photo.previousElementSibling.style.backgroundColor="rgba(226, 187, 78, 0.449)";
         setTimeout(function(){
             photo.previousElementSibling.style.backgroundColor = "white";
         }, 1500);
