@@ -147,12 +147,20 @@ display: inline-block;
 
 .values {
 width: fit-content;
-margin: auto;
 margin-bottom: 30px;
 background-color: rgba(252, 245, 212, 0.636);
 color: rgba(156, 78, 11, 0.69);
 border-radius: 100px;
 padding: 20px;
+margin: auto;
+display: none;
+}
+
+.valuesbutton {
+  color: rgba(202, 106, 33, 0.69);
+  text-decoration: none;
+  size: medium;
+  font-size: x-large;
 }
 
 /* goals */
@@ -190,7 +198,6 @@ max-width: 500px;
   width: fit-content;
   height: fit-content;
   padding: 10px;
-  font-size: xx-large;
   margin: auto;
   margin-bottom: 100px;
   border-radius: 20px;
@@ -202,6 +209,8 @@ max-width: 500px;
 .mdmlink {
   color: rgba(202, 106, 33, 0.69);
   text-decoration: none;
+  font-size: xx-large;
+
 }
 
 .mdmlink:hover {

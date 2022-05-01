@@ -48,3 +48,34 @@ function animationLoop(event){
     
     requestAnimationFrame(animationLoop);
 }
+
+
+// values 
+
+const valuesbttn = document.querySelector(".valuesbutton");
+valuesbttn.addEventListener("click", Clicked);
+
+function Clicked(event){
+    let values = document.querySelectorAll('.values')
+    let values2 = [values]
+    requestAnimationFrame(valuess);
+
+    j = 0 
+stop2 = 10 
+
+function valuess(event){
+    for(const value of values2){
+        value.style.display = 'block';
+        if (j <= stop2){
+            value.style.bottom = `${bottom + Math.floor(speed/2)}px`;
+            j++;
+        } else {
+            value.style.bottom = `${bottom - Math.floor(speed/2)}px`;
+            j++;
+            if(j > 2*stop2){
+                j = 0;
+            } 
+        }
+    }
+}
+    }
