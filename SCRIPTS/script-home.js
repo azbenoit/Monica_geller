@@ -55,31 +55,72 @@ function animationLoop(event){
 const valuesbttn = document.querySelector(".valuesbutton");
 valuesbttn.addEventListener("click", Clicked);
 let  j = 0;
-let stop2 = 20;
+let stop2 = 10;
 let speed2 = 2; 
+let leftPos = 35
+let rightPos = 35
 
 function Clicked(event){
     requestAnimationFrame(valuesss); }
 
-    function valuesss(event){
-        let values = document.querySelectorAll('.values')
-        // canceling the display none 
-        for(const value of values){
-            value.style.display = 'block';
+function valuesss(currentTime){
+    let values = document.querySelectorAll('.values')
+    // canceling the display none 
+    for(const value of values){
+        value.style.display = 'block';
+    }
+    // the animation ?? i think its not selecting the y properly 
+    let ints = document.querySelectorAll('.int')
+
+    for (let k = 0; k<ints.length; k++) {
+        const int = ints[k];
+        console.log(int)
+        
+        if(j<=10){
+
+
+            if (k%2===0){
+                int.style.left = `${leftPos}%`;
+                leftPos = leftPos+1;
+            }
+            else{
+                int.style.right = `${rightPos}%`;
+                rightPos = rightPos+1;
+            }
+            if(currentTime > 2000){
+                if (k%2===0){
+                    int.style.right = `${rightPos}%`;
+                    rightPos = rightPos+1;
+                }
+                else{
+                    int.style.left = `${leftPos}%`;
+                    leftPos = leftPos+1;
+                }
+           }
+           if(currentTime>4000){
+               j++
+           }    
         }
-        // the animation ?? i think its not selecting the y properly 
-        let ints = document.querySelectorAll('.int')
-
-        for (let k = 0; k<ints.length; k++) {
-            const int = ints[k];
-            const y = int.clientY;
-            if (j <= stop2){
-                int.style.bottom = `${y + Math.floor(speed2/2)}px`;
-                j++;
-            } 
-            if( stop2 < j <= 2*stop2 ){
-                int.style.bottom = `${y - Math.floor(speed2/2)}px`;
-                j++;   }
-          }
-
     } 
+    requestAnimationFrame(valuesss)
+}
+
+
+        /*if (j <= stop2){
+            int.style.bottom = `${yp + Math.floor(speed2/2)}px`;
+            j++;
+        } 
+        if( stop2 < j <= 2*stop2 ){
+            int.style.bottom = `${yp - Math.floor(speed2/2)}px`;
+            j++;   }
+            
+            
+        //get the Y position:
+        let yp = 0;
+        let element = int;
+        while(element){
+            yp += element.offsetTop
+            element = element.offsetParent
+        }
+        console.log(yp)
+            */

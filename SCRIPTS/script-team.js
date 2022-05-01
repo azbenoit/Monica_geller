@@ -42,6 +42,8 @@ function sendtorole(event){
     const name = element.parentNode.id;
     const nameimg = document.getElementsByClassName(name);
     let index = names.indexOf(name, 0);
+    console.log(index)
+    console.log(names)
     let bottomY = element.parentNode.offsetParent.offsetHeight - element.parentNode.offsetTop - element.offsetHeight;
     let heighttextphoto = textphoto.offsetHeight;
     //window.scrollBy(0, bottomY + index*heighttextphoto);
