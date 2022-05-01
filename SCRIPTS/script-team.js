@@ -42,6 +42,8 @@ function sendtorole(event){
     const name = element.parentNode.id;
     const nameimg = document.getElementsByClassName(name);
     let index = names.indexOf(name, 0);
+    console.log(index)
+    console.log(names)
     let bottomY = element.parentNode.offsetParent.offsetHeight - element.parentNode.offsetTop - element.offsetHeight;
     let heighttextphoto = textphoto.offsetHeight;
     //window.scrollBy(0, bottomY + index*heighttextphoto);
@@ -50,7 +52,7 @@ function sendtorole(event){
     //make the appearance of the text change for a bit
     const photo = document.querySelector('.'+name)
     if(index%2===0){
-        photo.nextElementSibling.style.backgroundColor="#fff5b8";
+        photo.nextElementSibling.style.backgroundColor="rgba(226, 187, 78, 0.449)";
         console.log(photo.nextElementSibling.style)
         setTimeout(function(){
             photo.nextElementSibling.style.backgroundColor = "white";
@@ -58,7 +60,7 @@ function sendtorole(event){
         
     }
     else{
-        photo.previousElementSibling.style.backgroundColor="#fff5b8";
+        photo.previousElementSibling.style.backgroundColor="rgba(226, 187, 78, 0.449)";
         setTimeout(function(){
             photo.previousElementSibling.style.backgroundColor = "white";
         }, 1500);
