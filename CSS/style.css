@@ -147,14 +147,17 @@ display: inline-block;
 
 .values {
 width: fit-content;
-margin-bottom: 30px;
 background-color: rgba(252, 245, 212, 0.636);
 color: rgba(156, 78, 11, 0.69);
 border-radius: 100px;
 padding: 20px;
-margin: auto;
 display: none;
+margin: auto;
+margin-top: 20px;
 }
+
+.int {display: inline-block;
+font-size: large;}
 
 .valuesbutton {
   color: rgba(202, 106, 33, 0.69);
@@ -174,6 +177,7 @@ color: rgba(156, 78, 11, 0.69);
 border-radius: 100px;
 padding: 20px;
 max-width: 500px;
+font-size: larger;
 }
 
 /* social cause */

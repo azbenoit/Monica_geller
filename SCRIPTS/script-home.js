@@ -54,28 +54,32 @@ function animationLoop(event){
 
 const valuesbttn = document.querySelector(".valuesbutton");
 valuesbttn.addEventListener("click", Clicked);
+let  j = 0;
+let stop2 = 20;
+let speed2 = 2; 
 
 function Clicked(event){
-    let values = document.querySelectorAll('.values')
-    let values2 = [values]
-    requestAnimationFrame(valuess);
+    requestAnimationFrame(valuesss); }
 
-    j = 0 
-stop2 = 10 
-
-function valuess(event){
-    for(const value of values2){
-        value.style.display = 'block';
-        if (j <= stop2){
-            value.style.bottom = `${bottom + Math.floor(speed/2)}px`;
-            j++;
-        } else {
-            value.style.bottom = `${bottom - Math.floor(speed/2)}px`;
-            j++;
-            if(j > 2*stop2){
-                j = 0;
-            } 
+    function valuesss(event){
+        let values = document.querySelectorAll('.values')
+        // canceling the display none 
+        for(const value of values){
+            value.style.display = 'block';
         }
-    }
-}
-    }
+        // the animation ?? i think its not selecting the y properly 
+        let ints = document.querySelectorAll('.int')
+
+        for (let k = 0; k<ints.length; k++) {
+            const int = ints[k];
+            const y = int.clientY;
+            if (j <= stop2){
+                int.style.bottom = `${y + Math.floor(speed2/2)}px`;
+                j++;
+            } 
+            if( stop2 < j <= 2*stop2 ){
+                int.style.bottom = `${y - Math.floor(speed2/2)}px`;
+                j++;   }
+          }
+
+    } 
