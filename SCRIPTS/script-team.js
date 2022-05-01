@@ -48,24 +48,21 @@ function sendtorole(event){
     window.scroll(0, event.clientY + bottomY + index*heighttextphoto);
     
     //make the appearance of the text change for a bit
-    console.log('.'+name)
-    let photo = document.querySelector('.'+name)
-    
-    changeappearance(photo)
-    setTimeout(photo.ogappearance,2000)
-}
-
-function changeappearance(el){
-    const element = el.parentElement;
-    console.log(element)
-    console.log(element.children)
-    console.log(element.children.length)
-    for (let k=0; k<element.children.length; k++){
-        console.log(element.children[k])
-        element.children[k].style.backgroundcolor = "#ffc991|0.6";
+    const photo = document.querySelector('.'+name)
+    if(index%2===0){
+        photo.nextElementSibling.style.backgroundColor="#fff5b8";
+        console.log(photo.nextElementSibling.style)
+        setTimeout(function(){
+            photo.nextElementSibling.style.backgroundColor = "white";
+        }, 1500);
+        
     }
+    else{
+        photo.previousElementSibling.style.backgroundColor="#fff5b8";
+        setTimeout(function(){
+            photo.previousElementSibling.style.backgroundColor = "white";
+        }, 1500);
+    }
+
 }
 
-function appearanceAnim(currentTime){
-    f
-}
