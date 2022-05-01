@@ -96,8 +96,9 @@ bottom: 50px; */
 .introtext {
 display: block;
 margin: auto;
+margin-bottom: 20px;
 padding: 5px; 
-width: 40vw;
+width: 50vw;
 font-size: 130%;
 background-color: rgb(252, 245, 212);
 color: rgba(167, 83, 9, 0.883);
@@ -106,7 +107,7 @@ line-height: 2;
 }
 .imageteam {
 display: block;
-width: 50vw;
+width: 70vw;
 border-radius: 10px;
 margin: auto;
 }
