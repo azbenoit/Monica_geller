@@ -203,7 +203,7 @@ font-size: larger;
   height: fit-content;
   padding: 10px;
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   border-radius: 20px;
   border: none;
   transition: all 0.2s ease 0s;
@@ -338,6 +338,7 @@ vertical-align: middle;
 .weekplanner {
 width: 90%;
 margin-top: 10px;
+margin-bottom: 50px;
 border-radius: 10px;
 max-width: 900px;
 margin-left: auto;
