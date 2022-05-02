@@ -407,9 +407,12 @@ display: inline-block;
 
 @media (max-width: 650px) {
   header {
-    height: 120px;
+    height: 180px;
   }
   .ourname {
-    margin-top: 200px;
+    margin-top: 250px;
+  }
+  .subbody{
+    margin-top: 250px;
   }
 }
