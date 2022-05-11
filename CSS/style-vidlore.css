@@ -67,19 +67,18 @@ header {
   height: 20px;
   display: inline-block;
 }
-    
-/* text */
-  
-.goals {
-  width: 80%;
-  margin: auto;
-  margin-bottom: 30px;
-  background-color: rgba(252, 245, 212, 0.636);
-  color: rgba(156, 78, 11, 0.69);
-  border-radius: 100px;
-  padding: 20px;
-  max-width: 500px;
-  font-size: larger;
+ 
+.loretext {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px; 
+    max-width: 800px;
+    margin-bottom: 30px;
+    background-color: rgba(252, 245, 212, 0.636);
+    color: rgba(156, 78, 11, 0.69);
+    border-radius: 50px;
+    padding: 20px;
+    font-size: larger;
 }
  
 /* Lore */
@@ -97,6 +96,9 @@ header {
     background-color: rgba(224, 200, 113, 0.186) ;
     border: 2px solid rgba(156, 78, 11, 0.5);
     padding: 12px;
+}
+.clickonme{
+    color: rgb(238, 223, 176);
 }
 
 /* FOOTER  */
