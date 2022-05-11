@@ -63,7 +63,6 @@ header {
 .weekplanner {
     width: 90%;
     margin: auto;
-    height: fit-content;
     border-radius: 10px;
     max-width: 900px;
     display: block;
