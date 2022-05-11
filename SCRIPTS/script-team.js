@@ -4,7 +4,6 @@ const roles = document.querySelectorAll(".role");
 const points = document.querySelectorAll(".point");
 const names = []
 const textphoto = document.querySelector(".textphoto");
-console.log("textphoto")
 
 for(let k=0; k<points.length; k++){
     const point = points[k]

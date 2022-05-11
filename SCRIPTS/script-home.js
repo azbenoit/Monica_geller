@@ -2,7 +2,7 @@
 
 const walkers = document.querySelector(".walkers");
 walkers.style.right = "0px";
-walkers.style.bottom = "90px";
+walkers.style.top = "380px";
 // console.log(walkers.right);
 let speed = 4;
 let i = 0;
@@ -18,7 +18,7 @@ function eClick(event){
     man.classList.add("walkers");
     man.alt = "walking dudes";
     man.style.right = "0px";
-    man.style.bottom = "90px";
+    man.style.top = "380px";
     document.querySelector("#walker_cont").appendChild(man);
     men.push(man);
 }
@@ -104,23 +104,3 @@ function valuesss(currentTime){
     } 
     requestAnimationFrame(valuesss)
 }
-
-
-        /*if (j <= stop2){
-            int.style.bottom = `${yp + Math.floor(speed2/2)}px`;
-            j++;
-        } 
-        if( stop2 < j <= 2*stop2 ){
-            int.style.bottom = `${yp - Math.floor(speed2/2)}px`;
-            j++;   }
-            
-            
-        //get the Y position:
-        let yp = 0;
-        let element = int;
-        while(element){
-            yp += element.offsetTop
-            element = element.offsetParent
-        }
-        console.log(yp)
-            */

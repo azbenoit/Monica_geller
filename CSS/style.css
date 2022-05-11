@@ -32,6 +32,10 @@ display: inline-block;
 .vertical {
 vertical-align: middle;
 }
+.poster {
+  width: 413px;
+  height: 520px;
+}
 
 /* HEADER */
 header {
@@ -331,7 +335,7 @@ vertical-align: middle;
   width: 60%;
   height: 185px;
   overflow: auto;
-  }
+}
 
 
 
@@ -350,22 +354,6 @@ display: block;
 
 /* VIDEOS */ 
 
-.poster {
-width: 413px;
-height: 520px;
-}
-.textevent{
-position: absolute;
-top: 0px;
-left: 0px;
-width: 413px;
-height: 520px;
-background-color: rgba(203, 150, 103, 0.6);
-display: none;
-}
-.block:hover .textevent{
-display: inline-block;
-}
 .textvideo {
 padding: 25px;
 width: 60%;
@@ -394,16 +382,15 @@ vertical-align: middle;
 width: 50%;
 display: inline-block;
 }
-
 .footertext {
-
   background-color: rgb(252, 245, 212);
   color: rgba(203, 150, 103, 0.883); 
   width: fit-content;
   margin: auto;
   height: fit-content; 
   border-radius: 20px;
-  padding: 10px;}
+  padding: 10px;
+}
 
 @media (max-width: 650px) {
   header {

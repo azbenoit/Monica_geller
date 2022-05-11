@@ -123,39 +123,11 @@ header {
     display: none;
     border-radius: 10px;
     margin: auto;
-}
-.block:hover .textevent{
-    display: inline-block;
-}
-.textvideo {
-    padding: 25px;
-    width: 30%;
-    display: inline-block;}
-
-p {
-    margin: 0%;
     font-size: larger;
     padding: 10px;
 }
-.left {
-    text-align: left;
-}
-.right {
-    text-align: right;
-}
-.vertical {
-    vertical-align: middle;
-}
-
-img {
-    width: 400px;
-    height: 400px;
-}
-.event{
-    position: relative;
+.block:hover .textevent{
     display: inline-block;
-    width : 400px;
-    height: 400px;
 }
 
 
@@ -194,9 +166,9 @@ footer {
 
 @media (max-width: 650px) {
     header {
-      height: 120px;
+      height: 180px;
     }
     .title_events {
-      margin-top: 150px;
+      margin-top: 250px;
     }
-  }
+}
