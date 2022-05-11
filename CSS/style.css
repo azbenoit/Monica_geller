@@ -200,7 +200,6 @@ font-size: larger;
   border: solid rgba(252, 245, 212, 0.403) 4px;
   border-radius: 30px;
   color: rgba(156, 78, 11, 0.89);
-
 }
 
 .mdm_button {
@@ -352,12 +351,22 @@ margin-right: auto;
 display: block;
 }
 
-/* VIDEOS */ 
+/* Lore */
 
-.textvideo {
-padding: 25px;
-width: 60%;
-display: inline-block;
+.lores {
+  width: 30%;
+  margin: auto;
+  border: 4px solid rgba(252, 245, 212, 0.403);
+  border-radius: 30px;
+  color: rgba(167, 83, 9, 0.783);
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.lores:hover {
+  background-color: rgba(224, 200, 113, 0.186) ;
+  border: 2px solid rgba(156, 78, 11, 0.5);
+  padding: 12px;
 }
 
 /* FOOTER  */
